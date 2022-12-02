@@ -20,9 +20,10 @@ with open('strategy_guide.txt') as f:
 # Getting round-by-round strats
 rounds = strategy_guide.split("\n")
 
-#  Calculating the score
+# Calculating the score
 score = 0
 for round in rounds:
     score += strats[round]
 
+# part I
 print("If everything goes exactly according to the strategy guide, your score will be", score)
