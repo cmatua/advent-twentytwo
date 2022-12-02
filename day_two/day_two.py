@@ -1,6 +1,6 @@
 # Advent of Code - 2022, Day 2: Rock Paper Scissors
 
-# Strat guide decrpyted, including point values per result
+# Strat guide's partial decrpytion, including point values per result
 strats = {
     'B Z': 9,      
     'A Y': 8, 
@@ -26,4 +26,25 @@ for round in rounds:
     score += strats[round]
 
 # part I
-print("If everything goes exactly according to the strategy guide, your score will be", score)
+print("If everything goes exactly according to the partial decryption of the strategy guide, your score will be", score)
+
+# Strat guide's final decryption, including point values per result
+final_strats = {
+    'B Z': 9,
+    'A Z': 8,
+    'C Z': 7,
+    'C Y': 6,
+    'B Y': 5,
+    'A Y': 4,
+    'A X': 3,
+    'C X': 2,
+    'B X': 1
+}
+
+# Recalculating score with final decrypted strat guide
+score = 0
+for round in rounds:
+    score += final_strats[round]
+
+# part II
+print("If everything goes exactly according to the final decryption of the strategy guide, your score will be", score)
