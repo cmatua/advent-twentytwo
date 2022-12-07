@@ -1,4 +1,5 @@
 # Advent of Code - 2022, Day 2: Rock Paper Scissors
+# Complete
 
 # Strat guide's partial decrpytion, including point values per result
 strats = {
