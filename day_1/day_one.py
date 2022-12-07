@@ -1,4 +1,5 @@
 # Advent of Code - 2022, Day 1: Calorie Counting
+# Complete
 
 # Opening input and creating calorie_list
 with open('calorie_input_list.txt') as f:
